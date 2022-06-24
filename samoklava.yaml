@@ -176,15 +176,6 @@ outlines:
         type: outline
         name: controller_area
         operation: add
-    bottom_outline:
-      main:
-        type: outline
-        name: base_outline
-      screw_holes:
-        type: outline
-        # TODO use footprints with pad + via reinforcement as mounting holes
-        name: screw_holes
-        operation: subtract
     plate:
       main:
         type: outline
@@ -193,20 +184,10 @@ outlines:
         type: outline
         name: switches
         operation: subtract
-      mounting_holes:
-        type: outline
-        # TODO use footprints with pad + via reinforcement as mounting holes
-        name: screw_holes
-        operation: subtract
     pcb:
       main:
         type: outline
         name: base_outline
-      mounting_holes:
-        type: outline
-        # TODO use plated through hole footprints as mounting holes
-        name: mounting_holes
-        operation: subtract
 pcbs:
   board:
     outlines:
