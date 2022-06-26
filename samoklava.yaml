@@ -419,4 +419,22 @@ pcbs:
         nets:
           from: GND
           to: RST
-
+      info_l:
+        type: text
+        anchor:
+          ref:
+            - matrix_pinky_bottom
+          shift: [0.75 kx, 0]
+        params:
+          text: "soundmonster samoklava\\nv0.2 by Jesse Slater"
+          justify: left
+      info_r:
+        type: text
+        anchor:
+          ref:
+            - matrix_pinky_bottom
+          shift: [0.75 kx, 0]
+        params:
+          layer: B.SilkS
+          text: "soundmonster samoklava\\nv0.2 by Jesse Slater"
+          justify: right mirror
