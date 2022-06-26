@@ -67,10 +67,11 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-2.5 kx, -1 ky]
+        shift: [-2 kx, -.9 ky]
       columns:
         near:
           spread: kx
+          rotate: -15
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P18
@@ -136,7 +137,7 @@ outlines:
         anchor:
           ref:
             - matrix_inner_top
-          shift: [0 kx, -2.383 ky]
+          shift: [0 kx, -2.38 ky]
         size: [32, 50]
         corner: px
     switches:
