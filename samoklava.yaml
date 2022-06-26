@@ -138,7 +138,7 @@ outlines:
           ref:
             - matrix_inner_top
           shift: [0 kx, -4.13 ky]
-        size: [32, 79.72]
+        size: [32, 79.71]
         corner: px
     switches:
       main:
@@ -246,11 +246,6 @@ outlines:
       main:
         type: outline
         name: base_outline
-      mounting_holes:
-        type: outline
-        # TODO use plated through hole footprints as mounting holes
-        name: mounting_holes
-        operation: subtract
 pcbs:
   top_plate:
     # include JLCJLCJLCJLC text somewhere
@@ -424,23 +419,4 @@ pcbs:
         nets:
           from: GND
           to: RST
-      info_l:
-        type: text
-        anchor:
-          ref:
-            - matrix_pinky_bottom
-          shift: [0.75 kx, 0]
-        params:
-          text: "samoklava v0.1\\nby soundmonster"
-          justify: left
-      info_r:
-        type: text
-        anchor:
-          ref:
-            - matrix_pinky_bottom
-          shift: [0.75 kx, 0]
-        params:
-          layer: B.SilkS
-          text: "samoklava v0.1\\nby soundmonster"
-          justify: right mirror
 
