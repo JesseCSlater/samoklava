@@ -402,8 +402,8 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [20, -5]
-          rotate: 214.58
+          shift: [25, -10]
+          rotate: 205
         params:
           side: F
         nets:
@@ -414,8 +414,8 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [20, -5]
-          rotate: 214.58
+          shift: [25, -10]
+          rotate: 205
         params:
           side: B
         nets:
