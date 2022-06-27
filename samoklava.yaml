@@ -261,13 +261,12 @@ outlines:
         type: outline
         name: base_outline
 pcbs:
-  top_plate:
-    # include JLCJLCJLCJLC text somewhere
-    include_keys: false
+  board:
     outlines:
       edge:
-        outline: plate
+        outline: pcb
         layer: Edge.Cuts
+        # TODO there's a way to add stuff to the silkscreen layer
     footprints:
       jlc_order_number:
         type: text
@@ -278,19 +277,6 @@ pcbs:
         params:
           text: "JLCJLCJLCJLC"
           justify: left
-  bottom_plate:
-    include_keys: false
-    outlines:
-      edge:
-        outline: bottom_outline
-        layer: Edge.Cuts
-  board:
-    outlines:
-      edge:
-        outline: pcb
-        layer: Edge.Cuts
-        # TODO there's a way to add stuff to the silkscreen layer
-    footprints:
       mcu_l:
         type: promicro
         params:
