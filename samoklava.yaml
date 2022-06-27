@@ -440,7 +440,7 @@ pcbs:
             - matrix_pinky_bottom
           shift: [0.75 kx, 0]
         params:
-          text: "soundmonster samoklava\\nv0.2 by Jesse Slater"
+          text: "cane toad v0.1\\nby Jesse Slater"
           justify: left
       info_r:
         type: text
@@ -450,5 +450,5 @@ pcbs:
           shift: [0.75 kx, 0]
         params:
           layer: B.SilkS
-          text: "soundmonster samoklava\\nv0.2 by Jesse Slater"
+          text: "cane toad v0.1\\nby Jesse Slater"
           justify: right mirror
